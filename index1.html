@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дигитални Курсове - Здраве и Баланс</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="description" content="Дигитални курсове за здраве и баланс, суперхрани и създаване на пасивен доход чрез мрежов маркетинг. Открийте полезни ресурси и обучения, за да постигнете баланс в ежедневието си.">
+    <meta name="keywords" content="здраве, баланс, суперхрани, пасивен доход, дигитални курсове, мрежов маркетинг">
+    <meta name="author" content="Здраве и Баланс">
+</head>
+<body>
+    <header>
+        <h1>Здраве и Баланс - Дигитални Курсове и Ресурси</h1>
+        <div class="language-switch">
+            <a href="#" class="btn">BG</a>
+            <a href="#" class="btn">EN</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#courses">Курсове</a>
+        <a href="#free">Безплатни Ресурси</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <div class="container">
+        <section id="courses" class="section">
+            <h2>Нашите Курсове</h2>
+            <div class="course">
+                <h3 class="course-title">Планер за Самостоятелно Развитие</h3>
+                <p>Организирайте времето си с този лесен за използване планер.</p>
+                <a href="#" class="btn">Купи Сега</a>
+            </div>
+            <div class="course">
+                <h3 class="course-title">Курс 1: Баланс на Емоциите и Ума</h3>
+                <p>Открийте как да се справите със стреса и да възвърнете баланса в ежедневието си.</p>
+                <a href="#" class="btn">Виж Повече</a>
+            </div>
+            <div class="course">
+                <h3 class="course-title">Курс 2: Суперхрани и Здравословен Начин на Живот</h3>
+                <p>Научете как да подобрите здравето си с помощта на суперхрани и природосъобразни добавки.</p>
+                <a href="#" class="btn">Виж Повече</a>
+            </div>
+            <div class="course">
+                <h3 class="course-title">Курс 3: Пасивен Успех</h3>
+                <p>Научете как да създадете пасивен доход и да постигнете финансова свобода чрез дигитални курсове и мрежов маркетинг.</p>
+                <a href="#" class="btn">Виж Повече</a>
+            </div>
+        </section>
+        <section id="free" class="section">
+            <h2>Безплатни Ресурси</h2>
+            <div class="course">
+                <h3 class="course-title">Гайд за Холистичен Здравословен Баланс</h3>
+                <p>Изтеглете нашия безплатен гайд за създаване на баланс в ежедневието си.</p>
+                <a href="#" class="btn">Изтегли Сега</a>
+            </div>
+            <div class="course">
+                <h3 class="course-title">Гайд със Съвети за Продуктивност за Заети Жени</h3>
+                <p>Открийте как да бъдете по-продуктивни и да управлявате времето си ефективно, дори когато сте заети.</p>
+                <a href="#" class="btn">Изтегли Сега</a>
+            </div>
+            <div class="course">
+                <h3 class="course-title">Ръководство: Как да структурираме седмичния си график и да постигнем баланс</h3>
+                <p>Научете как да планирате седмицата си и да постигнете баланс между работа и личен живот.</p>
+                <a href="#" class="btn">Изтегли Сега</a>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Контакти</h2>
+            <p>За повече информация или въпроси, свържете се с нас на:</p>
+            <p>Email: <a href="mailto:info@healthbalance.com">info@healthbalance.com</a></p>
+            <form id="contact-form">
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Съобщение:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit" class="btn">Изпрати</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Здраве и Баланс. Всички права запазени.</p>
+        <div class="social">
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $('#contact-form').on('submit', function(event) {
+                event.preventDefault();
+                alert('Благодарим ви за съобщението! Ще се свържем с вас скоро.');
+            });
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fde7e1;
+            color: #ff66c4;
+        }
+        header {
+            background-color: #fde7e1;
+            color: #ff66c4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fde7e1;
+            padding: 10px;
+        }
+        nav a {
+            color: #ff66c4;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #ff66c4;
+            color: #fde7e1;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .course {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        .course-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ff66c4;
+        }
+        .btn {
+            background-color: #ff66c4;
+            color: #fde7e1;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #fde7e1;
+            color: #ff66c4;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #fde7e1;
+            color: #ff66c4;
+        }
+        .social a {
+            color: #ff66c4;
+            text-decoration: none;
+        }
+        .social a:hover {
+            text-decoration: underline;
+        }
+        .language-switch {
+            text-align: right;
+            padding: 10px;
+        }
+        .language-switch a {
+            color: #ff66c4;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+        .language-switch a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>
